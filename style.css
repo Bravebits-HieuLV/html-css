@@ -254,6 +254,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: end;
+  background-repeat: no-repeat;
 }
 
 .banner div {
@@ -350,6 +351,7 @@ main {
   justify-content: center;
   flex-direction: column;
   padding-left: 60px;
+  background-repeat: no-repeat;
 }
 
 .partners-pet-seller-adoption {
@@ -429,4 +431,133 @@ main {
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 5;
+}
+
+footer {
+  background: linear-gradient(
+    102.87deg,
+    #fceed5 6.43%,
+    #fceed5 78.33%,
+    #ffe7ba 104.24%
+  );
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 60px 130px 40px 130px;
+  margin-top: 60px;
+}
+
+.newsletter {
+  background-color: #003459;
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+  border-radius: 16px;
+}
+
+.newsletter h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #fdfdfd;
+  max-width: 389px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 12px;
+  gap: 12px;
+}
+
+.newsletter-form input {
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: 1px solid #99a2a5;
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #99a2a5;
+  flex-grow: 1;
+}
+
+.newsletter-form button {
+  width: 163px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #003459;
+  border: none;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+  border-bottom: 1px solid #ccd1d2;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00171f;
+  text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 115px;
+  height: 40px;
+}
+
+.footer-bottom p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667479;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #667479;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
 }
